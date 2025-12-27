@@ -1,4 +1,44 @@
 # Welcome to OpenSphere Codex Projects(Tool Series)
+
+🚀 OpenSphere – AI Resume Builder
+
+A modern, AI-powered Resume / CV Builder that helps users create professional, ATS-friendly resumes directly in the browser — no backend, no paid APIs, and privacy-first.
+Built with React + Vite + Tailwind CSS, this project focuses on offline-first design, clean UI, and smart resume generation logic.
+
+✨ Features
+🧠 AI-style resume content generation (rule-based, no paid APIs)
+📄 Live resume preview (A4, print-ready)
+🎯 ATS-friendly resume templates
+🔄 Real-time editing & updates
+📊 Resume strength scoring & suggestions
+🖨️ Export resume as PDF
+💾 Local storage (IndexedDB) — no login required
+🌙 Dark mode support
+📱 Responsive & PWA-ready
+🔒 Privacy-first (all data stays on user device)
+
+🛠️ Tech Stack
+Frontend: React + TypeScript
+Build Tool: Vite
+Styling: Tailwind CSS
+State Management: React Hooks
+Storage: IndexedDB (browser)
+PDF Export: Client-side HTML to PDF
+Deployment: Static hosting (GitHub Pages / FreeHosting)
+
+📂 Project Structure
+src/
+├── components/
+│   ├── forms/
+│   ├── preview/
+│   └── ui/
+├── pages/
+├── styles/
+├── utils/
+├── App.tsx
+├── main.tsx
+└── index.css
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
@@ -39,12 +79,41 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+🚀 Getting Started (Local Development)
+1️⃣ Clone the repository
+git clone https://github.com/your-username/opensphere-ai-resume-builder.git
+cd opensphere-ai-resume-builder
 
-This project is built with:
+2️⃣ Install dependencies
+npm install
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3️⃣ Start development server
+npm run dev
+
+🔒 Privacy Policy
+This application:
+Does NOT collect user data
+Does NOT use analytics
+Does NOT require login
+Stores all data locally in the browser
+
+📌 Roadmap
+ More resume templates
+ DOCX export
+ Multi-language support
+ Custom sections
+ Resume sharing via link
+
+🤝 Contributing
+Contributions are welcome!
+Fork the repo
+Create a feature branch
+Commit changes
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+
+👤 Author
+OpenSphere
+Built with ❤️ for students, job-seekers, and creators.
